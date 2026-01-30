@@ -65,8 +65,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.13232217573221758,
-      "y": 0.8999999999999999,
+      "x": 0.1600418410041841,
+      "y": 0.727906976744186,
       "uniqueID": "id-334",
       "ioValues": [
         {
@@ -89,8 +89,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.2615062761506276,
-      "y": 0.8302325581395349,
+      "x": 0.23064853556485354,
+      "y": 0.7651162790697674,
       "uniqueID": "id-340",
       "ioValues": [
         {
@@ -105,8 +105,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.31642259414225943,
-      "y": 0.7325581395348837,
+      "x": 0.3760460251046025,
+      "y": 0.672093023255814,
       "uniqueID": "id-353",
       "ioValues": [
         {
@@ -135,33 +135,36 @@
             "color": "#aad7f2",
             "bom": []
           }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "extrude-move-polysides-9.5-12-0-23-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         }
       ],
       "unionType": "Fusion"
-    },
-    {
-      "atomType": "Move",
-      "x": 0.41642259414225946,
-      "y": 0.7325581395348837,
-      "uniqueID": "id-363",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -186,9 +189,9 @@
       "ap2ID": "id-340"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-353",
-      "ap2ID": "id-363"
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-340",
+      "ap2ID": "id-353"
     }
   ],
   "unitsKey": "MM",
